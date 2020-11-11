@@ -1,0 +1,237 @@
+body {
+	background: white;
+}
+
+header {
+	padding: 20px 0px;
+}
+
+.contact-pg {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.heading-box {
+	padding: 0px;
+	background: none;
+	font-size: 18px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.heading-box h4 {
+	font-size: 18px;
+}
+
+.heading-box h4 a {
+	color: #005398;
+}
+
+.heading-left{
+	padding-left: 12px;
+	padding-right: 12px;
+	width: 180px;
+}
+
+.content-box {
+	padding: 20px 20px 20px 0px;
+}
+
+.product-head {
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.product-head, .navbar-default, .heading-left {
+	background: url('../img/components/blue.png') repeat-x;
+	border-top-right-radius: 40px;
+}
+
+.product-home {
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+	border: none;
+	margin-bottom: 50px;
+}
+
+.slider-home {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.menu-bar {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.certification-box {
+	display: inline;
+}
+
+.lang {
+	display: inline;
+}
+
+.header-icon {
+	text-align: right;
+}
+
+.header-icon-member {
+	display:inline;
+}
+
+.header-icon-member {
+	width:auto;
+	height: auto;
+}
+
+.header-icon__box{
+	width: 10%;
+	display: inline-block;
+}
+
+.header-icon__box img{
+	width: 100%;
+}
+
+.news-home1 {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+
+}
+
+.content-box {
+	border-right: none;
+}
+
+footer {
+	background: white;
+	padding: 0px;
+	color: #005398;
+}
+
+.footer-bottom img {
+	width: 50%;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.running-text marquee {
+	margin: 0px;
+}
+
+.addr-home {
+	color: #005398;
+	font-size: 14px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.footer-bottom-top{
+	background: transparent url("../img/components/blue.png") repeat-x scroll 0% 0%;
+	height: 50px;
+}
+
+.child-bg{
+	background: transparent url("../images/anak.png") no-repeat;
+	width: 300px;
+}
+
+.child-home{
+    margin: 0 0 40px;
+    border: 1px solid #e5e5e5;
+    padding: 0;
+}
+
+.child-title {
+	color: #FFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	margin-bottom: 0;
+	padding-right: 100px;
+}
+
+.child-box{
+	padding-top: 20px;
+	margin: 0 15px;
+}
+
+.ftr{
+	text-align: center;
+}
+
+.socmed-home{
+	display: none;
+}
+
+.icon-socmed {
+    display: inline-block;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	background: #005398 none repeat scroll 0% 0%;
+	border-radius: 50%;
+	color: #FFF;
+	line-height: 40px;
+	font-size: 18px;
+	margin-left: 5px;
+}
+
+.footer-bottom-add {
+	padding-left: 40px;
+}
+
+footer .menu-bar{
+	margin-bottom: 0;
+}
+
+footer .navbar{
+	margin-bottom: 0;
+}
+
+.heading-box-contact{
+	width: 18%;
+	padding: 5px 10px;
+	color: #FFF;
+	background: url("../img/components/blue.png") repeat-x;
+	border-top-right-radius: 50px;
+}
+
+.contact-top-box{
+	padding: 0px 10% 5%;
+}
+
+.content-contact {
+    border: 2px solid #E5E5E5;
+}
+
+.email-box{
+	padding: 0;
+}
+
+.btn-email {
+    border-radius: 0px;
+    font-family: castlet;
+    background-color: #00A4E4;
+    border-color: #00A4E4;
+    font-size: 16px;
+}
+
+.contact-form {
+    padding: 40px 10%;
+}
+
+.form-contact {
+    padding: 0
+}

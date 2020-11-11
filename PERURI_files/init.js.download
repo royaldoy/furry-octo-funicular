@@ -1,0 +1,145 @@
+
+// ===============wow effect===============================================
+wow = new WOW(
+  {
+  boxClass:     'wow',      // default
+  animateClass: 'animated', // default
+  offset:       0,          // default
+  mobile:       true,       // default
+  live:         true        // default
+}
+)
+wow.init();
+
+// =================nicescroll============================================
+$(document).ready(
+	function() {
+	$("html").niceScroll();
+	}
+);
+// ======================================================
+$(function () {
+            var url = window.location.pathname,
+                urlRegExp = new RegExp(url.replace(/\/$/, '') + "$");
+            $('#top a').each(function () {
+                if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
+                    if($(this).hasClass('flag' )){
+                      $(this).closest('.dropdown').find('.dropdown-toggle').addClass('active');
+                      $(this).parent().previoussibling().find('a').removeClass('active');
+                    }
+                    $(this).addClass('active');
+                    $(this).parent().previoussibling().find('a').removeClass('active');
+                }
+            });
+            $('#sdbHi a').each(function () {
+              if($(this).hasClass('flag' )){
+                $('#dtHi').addClass('active');
+                $(this).parent().previoussibling().find('a').removeClass('active');
+              }
+            });
+
+            $('#sdbPk a').each(function () {
+              if($(this).hasClass('flag' )){
+                $('#dtPk').addClass('active');
+                $(this).parent().previoussibling().find('a').removeClass('active');
+              }
+            });
+        });
+
+// =============================sidebar========================================
+// $( "#sdb a" ).click(function() {
+//   alert( "Hai El" );
+//   // e.preventDefault();
+//   $("#dtInvest").addClass("active");
+   
+
+//    // alert("mantap");
+  
+//   // return true;
+// });
+
+// ============================Menu===================================================
+$(function(){
+$(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+            $(this).toggleClass('open');
+            $('b', this).toggleClass("caret caret-up");                
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+            $(this).toggleClass('open');
+            $('b', this).toggleClass("caret caret-up");                
+        });
+});
+
+// =================================================================================
+var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    autoplay: 2000,
+    
+    // If we need pagination
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    
+    // Navigation arrows
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    // spaceBetween: 30,
+    
+  });  
+
+// =====Script for tag people in image=====================================================
+function people1(){
+  $( "#people1" ).addClass( "bubble" ).fadeIn();
+  $( "#people1" ).removeClass( "hidden" );
+}
+
+function people1out () {
+  $( "#people1" ).addClass( "hidden");
+  $( "#people1" ).removeClass( "bubble" );
+  $( "#people1" ).removeClass( "bbl-box" );
+}
+
+function people2(){
+  $( "#people2" ).addClass( "bubble" ).fadeIn();
+  $( "#people2" ).removeClass( "hidden" );
+}
+
+function people2out(){
+  $( "#people2" ).addClass( "hidden");
+  $( "#people2" ).removeClass( "bubble" );
+  $( "#people2" ).removeClass( "bbl-box" );
+}
+function people3(){
+  $( "#people3" ).addClass( "bubble" ).fadeIn();
+  $( "#people3" ).removeClass( "hidden" );
+}
+
+function people3out(){
+  $( "#people3" ).addClass( "hidden");
+  $( "#people3" ).removeClass( "bubble" );
+  $( "#people3" ).removeClass( "bbl-box" );
+}
+function people4(){
+  $( "#people4" ).addClass( "bubble" ).fadeIn();
+  $( "#people4" ).removeClass( "hidden" );
+}
+
+function people4out(){
+  $( "#people4" ).addClass( "hidden");
+  $( "#people4" ).removeClass( "bubble" );
+  $( "#people4" ).removeClass( "bbl-box" );
+}
+function people5(){
+  $( "#people5" ).addClass( "bubble" ).fadeIn();
+  $( "#people5" ).removeClass( "hidden" );
+}
+
+function people5out(){
+  $( "#people5" ).addClass( "hidden");
+  $( "#people5" ).removeClass( "bubble" );
+  $( "#people5" ).removeClass( "bbl-box" );
+}
